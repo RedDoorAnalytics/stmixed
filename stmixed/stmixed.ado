@@ -171,19 +171,20 @@ program Estimate, eclass
         }
         
         //final family
-        local family family(`family', failure(_d) `userfunc' `bhazard' `ltruncated' `df' `knots' `noorthog')		
+        local family family(`family', failure(_d) ///
+              `userfunc' `bhazard' `ltruncated' `df' `knots' `noorthog')		
         
         //parse mlopts
         mlopts mlopts , `options'
 							
 							
-	//==================================================================================================================================//
+	//===================================================================//
 	// build complex predictor
 		
         local Mind = 1
         
         //level 1 can be parsed straight off
-        fvexpand `cmd_1'							//handles var1-var15 etc
+        fvexpand `cmd_1'		        //handles var1-var15 etc
         local merlincp `r(varlist)'
         
         //tvcs
@@ -257,7 +258,7 @@ program Estimate, eclass
                 
         }
 
-	//==============================================================================================================================================//
+        //===================================================================//
 	// merlin
 			
         if "`debug'"!="" {
