@@ -1,0 +1,14 @@
+TITLE: `STMIXED' : module to fit multilevel mixed effects parametric survival models.
+
+DESCRIPTION/AUTHOR: stmixed fits multilevel mixed effects parametric survival models using maximum 
+likelihood. The distribution of the random effects can be Gaussian or t-distributed. Adaptive or non-adaptive 
+Gauss-Hermite quadrature or Monte-Carlo integration can be used to evaluate the likelihood. 
+Parametric survival models available include the exponential, Weibull, and Gompertz proportional hazards models, 
+the generalised gamma, log normal and log logistic AFT models, the Royston-Parmar flexible parametric survival 
+model and its log hazard scale equivalent, or a user-defined general hazard function. Relative survival models 
+can be fitted and delayed entry/left truncation is supported.
+
+Author: Michael J. Crowther, University of Leicester
+Support: email michael.crowther@le.ac.uk
+
+Requires: Stata version 15.1
