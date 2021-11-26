@@ -9,3 +9,11 @@ The `stmixed` package began as the accompanying Stata implementation for the met
 `stmixed` has now become a wrapper function for `merlin`, which gives it a lot more capabilities. The new developments in `stmixed` are now described in a recent *Stata Journal* paper:
 
 > Crowther MJ. Multilevel mixed effects parametric survival analysis: Estimation, simulation and application. *Stata Journal* 2019;19(4):931-949. (Pre-print: https://arxiv.org/abs/1709.06633)
+
+## Installation
+
+Install directly using:
+
+```{stata}
+net install stmixed, from("https://raw.githubusercontent.com/RedDoorAnalytics/stmixed/master/")
+```
