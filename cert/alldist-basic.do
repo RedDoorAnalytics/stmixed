@@ -1,6 +1,6 @@
 
 //local drive Z:/
-local drive /Users/Michael/Documents
+local drive /Users/Michael/Documents/reddooranalytics/products
 cd "`drive'/merlin"
 adopath ++ "`drive'/merlin"
 adopath ++ "`drive'/merlin/merlin"
@@ -8,8 +8,6 @@ clear all
 
 do ./build/buildmlib.do
 mata mata clear
-
-local drive /Users/Michael/Documents/stmixed
 
 cd "`drive'"
 adopath ++ "`drive'/stmixed"

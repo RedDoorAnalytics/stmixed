@@ -8,7 +8,7 @@ the generalised gamma, log normal and log logistic AFT models, the Royston-Parma
 model and its log hazard scale equivalent, or a user-defined general hazard function. Relative survival models 
 can be fitted and delayed entry/left truncation is supported.
 
-Author: Michael J. Crowther, University of Leicester
-Support: email michael.crowther@le.ac.uk
+Author: Michael J. Crowther, Red Door Analytics AB
+Support: email michael@reddooranalytics.se
 
 Requires: Stata version 15.1

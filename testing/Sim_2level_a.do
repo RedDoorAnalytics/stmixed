@@ -1,5 +1,5 @@
 
-local drive /Users/Michael/Documents/stmixed
+local drive /Users/Michael/Documents/reddooranalytics/products/stmixed
 
 cd "`drive'"
 adopath ++ "`drive'/stmixed"

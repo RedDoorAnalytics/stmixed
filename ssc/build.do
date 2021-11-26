@@ -2,9 +2,7 @@
 //either for website or SSC
 // --> run whole do file
 
-
-//local drive Z:/
-local drive /Users/Michael/Documents
+local drive /Users/Michael/Documents/reddooranalytics/products/stmixed
 cd `drive'/stmixed/
 
 local sscbuild 		= 0
