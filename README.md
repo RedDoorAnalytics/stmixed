@@ -21,5 +21,5 @@ ssc install stmixed
 To install directly from this GitHub repository, use:
 
 ```{stata}
-net install stmixed, from("https://raw.githubusercontent.com/RedDoorAnalytics/stmixed/master/")
+net install stmixed, from("https://raw.githubusercontent.com/RedDoorAnalytics/stmixed/main/")
 ```
