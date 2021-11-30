@@ -22,5 +22,6 @@ stset stime, f(dead)
 // mestreg trt || id1: , dist(weib) nohr //intmethod(gh) intpoints(15)
 // merlin (_t trt M1[id1]@1, family(weibull, failure(_d))), 
 
-stmixed trt || id1: , distribution(pwe) knots(1 2) restartval(M1 0.01) //trace
-stmixed trt || id1: , distribution(rcs) df(3) restartval(M1 0.01)
+stmixed || id: , dist(weib)
+// stmixed trt || id1: , distribution(pwe) knots(1 2) restartval(M1 0.01) //trace
+// stmixed trt || id1: , distribution(rcs) df(3) restartval(M1 0.01)

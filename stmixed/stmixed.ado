@@ -89,7 +89,19 @@ program Estimate, eclass
 	//parse
 	
         _parse expand cmd glob : 0 , common(`globallow')
-		
+	
+        if `cmd_n'==1 {
+                if strpos(`"`cmd_1'"',":") {
+                        local cmd_2 `cmd_1'
+                        local cmd_1 
+                        local cmd_n = 2
+                }
+                else {
+                        di as error "Missing level variable"
+                        exit 198
+                }
+        }
+        
         forvalues k = 1/`cmd_n' {              
 			local cmds `"`cmds' `"`cmd_`k''"'"'
         }
