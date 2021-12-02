@@ -1,7 +1,8 @@
-*! version 2.2.0 16dec2020 MJC
+*! version 2.2.1 02dec2021 MJC
 
 /*
 History
+MJC 02dec2021: version 2.2.1 - bug fix: would error out when no covariates specified; now fixed
 MJC 16dec2020: version 2.2.0 - synced & doc'd distribution(pwexponential)
 MJC 03oct2020: version 2.1.0 - now requires merlin 1.12.0:
                                  --> requires Stata 15.1

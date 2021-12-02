@@ -1,7 +1,7 @@
 v 3
-d stmixed: multilevel mixed effects parametric survival analysis
+d STMIXED: multilevel mixed effects parametric survival analysis
 d Author: Michael J. Crowther
-d Distribution-Date: 20201216
+d Distribution-Date: 20211202
 f stmixed/stmixed.ado
 f stmixed/stmixed.sthlp
 f stmixed/stmixed_postestimation.sthlp
