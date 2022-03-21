@@ -3,21 +3,17 @@
 // --> run whole do file
 
 local drive /Users/Michael/Documents/reddooranalytics/products/stmixed
-cd `drive'/stmixed/
+cd `drive'
 
-local sscbuild 		= 0
+local sscbuild 		= 1
 
 //=======================================================================================================================//
 
-//build for SSC -> current version up is 2.0.3
+//build for SSC -> current version up is 2.2.1
 if `sscbuild' {
-	local sscversion 2_1_0
+	local sscversion 2_2_1
 	cap mkdir ./ssc/version_`sscversion'
-	local fdir /Users/Michael/Documents/stmixed/ssc/version_`sscversion'/
-}
-//build for website -> 2.2.0
-else {
-	local fdir /Users/Michael/Documents/website/static/code/stmixed/
+	local fdir `drive'/ssc/version_`sscversion'/
 }
 
 
