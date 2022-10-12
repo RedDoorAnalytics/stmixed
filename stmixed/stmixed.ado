@@ -1,7 +1,8 @@
-*! version 2.2.1 02dec2021 MJC
+*! version 2.2.2 12oct2022 MJC
 
 /*
 History
+MJC 12oct2022: version 2.2.2 - bug fix; touse caused predictions to fail
 MJC 02dec2021: version 2.2.1 - bug fix: would error out when no covariates specified; now fixed
 MJC 16dec2020: version 2.2.0 - synced & doc'd distribution(pwexponential)
 MJC 03oct2020: version 2.1.0 - now requires merlin 1.12.0:
@@ -160,11 +161,7 @@ program Estimate, eclass
                 di as error "distribution(`distribution') not supported"
                 exit 198
         }
-        
-        //sample
-        marksample touse
-        local ifin "if `touse'"
-        
+                
         //delayed entry
         qui su _t0 `ifin', meanonly
         if `r(max)'>0 {
