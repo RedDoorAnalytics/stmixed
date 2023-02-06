@@ -1,16 +1,16 @@
 
-//local drive Z:/
-local drive /Users/Michael/Documents/reddooranalytics/products/stmixed
-// cd "`drive'/merlin"
-// adopath ++ "`drive'/merlin"
-// adopath ++ "`drive'/merlin/merlin"
-// clear all
+local drive /Users/Michael/Documents/reddooranalytics/products
+cd "`drive'/merlin"
+adopath ++ "`drive'/merlin"
+adopath ++ "`drive'/merlin/merlin"
+clear all
 
-// do ./build/buildmlib.do
-// mata mata clear
+do ./build/buildmlib.do
+mata mata clear
 
-cd "`drive'"
+cd "`drive'/stmixed"
 adopath ++ "`drive'/stmixed"
+adopath ++ "`drive'/stmixed/stmixed"
 clear all
 
 set seed 130931
