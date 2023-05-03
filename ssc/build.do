@@ -9,9 +9,9 @@ local sscbuild 		= 1
 
 //=======================================================================================================================//
 
-//build for SSC -> current version up is 2.2.2
+//build for SSC -> current version up is 2.2.3
 if `sscbuild' {
-	local sscversion 2_2_2
+	local sscversion 2_2_3
 	cap mkdir ./ssc/version_`sscversion'
 	local fdir `drive'/ssc/version_`sscversion'/
 }
